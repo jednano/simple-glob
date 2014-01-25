@@ -1,0 +1,42 @@
+{
+  "name": "simple-glob",
+  "description": "Simplified globbing, same as Grunt",
+  "version": "0.1.0",
+  "author": "\"Cowboy\" Ben Alman (http://benalman.com/)",
+  "homepage": "https://github.com/jedmao/simple-glob",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedmao/simple-glob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jedmao/simple-glob/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/jedmao/simple-glob/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/api.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "glob",
+    "tool",
+    "grunt"
+  ],
+  "dependencies": {
+    "glob": "~3.2.8",
+    "lodash": "~2.4.1",
+    "minimatch": "~0.2.14"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
