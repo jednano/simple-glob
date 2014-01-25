@@ -13,7 +13,7 @@ The inspiration for this project was to simplify globbing patterns to work the s
 
 <i>Full disclaimer: The code contained in this project is 99% the original work of the Grunt.js team. I only renamed a couple things and moved things around a bit. I take no credit whatsoever and the original license is in tact, according to license conditions.</i>
 
-<i>Note: The following documentation was taken directly from [Grunt's Configuring Tasks][] page.</i>
+<i>Note: The following documentation was taken mostly from [Grunt's Configuring Tasks][] page.</i>
 
 
 ## Globbing patterns
