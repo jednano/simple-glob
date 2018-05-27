@@ -22,7 +22,7 @@
     "test": "grunt test"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 6"
   },
   "keywords": [
     "glob",
@@ -30,14 +30,15 @@
     "grunt"
   ],
   "dependencies": {
-    "glob": "~7.1.2",
-    "grunt": "^1.0.2",
-    "lodash": "~4.17.5",
-    "minimatch": "~3.0.4"
+    "glob": "^7.1.2",
+    "lodash.difference": "^4.5.0",
+    "lodash.flatten": "^4.4.0",
+    "lodash.union": "^4.6.0"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~1.1.0",
-    "grunt-contrib-nodeunit": "~1.0.0",
-    "grunt-contrib-watch": "~1.0.0"
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0"
   }
 }
